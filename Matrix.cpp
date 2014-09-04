@@ -3,7 +3,7 @@
 #include <fstream>
 #include <iostream>
 using namespace std;
-
+//potatoes are so surreal...
 //the indices are 1-based!!
 Matrix::Matrix(int r, int c)
 {
