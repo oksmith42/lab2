@@ -9,7 +9,7 @@ ReadFile* createReadFile(const char* file_name)
    rf->input_file.open(file_name);
    rf->closed = false;
    rf->_eof = false;
-
+//rf->asodigja...
    return rf;
 }
 
