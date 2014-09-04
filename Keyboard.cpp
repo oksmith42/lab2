@@ -13,6 +13,7 @@ Keyboard* Keyboard::getKeyboard()
 {
    static Keyboard keyboard;  //initialized when method is called the first time
    return &keyboard;  //won't go out of scope as keyboard is static
+   // Loser
 }
 
 int Keyboard::readInt(string prompt)
