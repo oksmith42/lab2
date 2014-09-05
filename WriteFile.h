@@ -16,8 +16,8 @@ public:
 
 	WriteFile(const char* file_name);
 	~WriteFile();
-	void writeLine(WriteFile* wf, String* line);
-	void close(WriteFile* wf);
+	void writeLine(String* line);
+	void close();
 
 
 };

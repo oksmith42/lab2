@@ -16,9 +16,9 @@ private:
 public:
 	ReadFile(const char* file_name);
 	~ReadFile();
-	String* readLine(ReadFile* rf);
-	bool eof(ReadFile* rf);
-	void close(ReadFile* rf);
+	String* readLine();
+	bool eof();
+	void close();
 
 
 };
